@@ -1,9 +1,10 @@
 import Icons from "../components/common/Icons";
+import { MEDIUM_LINK, TELEGRAM_LINK, TWITTER_LINK } from "./constant";
 
 export const SOCIAL_ICONS = [
-    { icon: <Icons icon="medium-icon" />, link: "" },
-    { icon: <Icons icon="telegram-icon" />, link: "" },
-    { icon: <Icons icon="twitter-icon" />, link: "" },
+    { icon: <Icons icon="medium-icon" />, link: MEDIUM_LINK },
+    { icon: <Icons icon="telegram-icon" />, link: TELEGRAM_LINK },
+    { icon: <Icons icon="twitter-icon" />, link: TWITTER_LINK },
 ];
 export const NAV_LINK_LIST = [
     {

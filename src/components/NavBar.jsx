@@ -1,6 +1,6 @@
 import { useState } from "react";
-import navLogo from "../../assets/images/svg/nav-logo.svg"
-import { NAV_LINK_LIST } from "../../utils/helper";
+import navLogo from "../assets/images/svg/nav-logo.svg"
+import { NAV_LINK_LIST } from "../utils/helper";
 
 const NavBar = () => {
       const [show, setShow] = useState(true);

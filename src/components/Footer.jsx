@@ -5,7 +5,7 @@ import { FOOTER_LINK_LIST, SOCIAL_ICONS } from '../utils/helper'
 const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
-    <div className='bg-cloud pt-16 md:pt-[95px] bg-cover bg-center bg-no-repea t bg-light-blue'>
+    <div className='bg-cloud pt-16 md:pt-[95px] bg-cover bg-center bg-no-repeat bg-light-blue sm:pb-20 pb-10 md:pb-[99px]'>
       <div className="container max-w-[1204px] xl:px-3 px-6 mx-auto">
         <div className="w-full bg-foot bg-cover bg-no-repeat bg-center pt-20 pb-[183px]">
 <PrimaryHeading className='text-white mb-3' center>Contact</PrimaryHeading>
@@ -13,7 +13,7 @@ const Footer = () => {
 <div className='flex gap-2 justify-center'>
     {
     SOCIAL_ICONS.map((item,i)=>(
-        <a href={item.link}>
+        <a target='blank' rel="noopener norefferer" href={item.link}>
 <div className={`sm:size-[54px] size-10 bg-white flex justify-center items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
         </a>
     ))}

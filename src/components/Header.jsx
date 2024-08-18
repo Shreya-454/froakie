@@ -2,8 +2,8 @@ import React from 'react'
 import { SOCIAL_ICONS } from '../utils/helper'
 import Cta from './custom-ui/Cta'
 import hero_frog from '../assets/images/webp/head-frog.webp'
-import NavBar from './common/NavBar'
 import hero_clouds from '../assets/images/webp/hero-clouds.webp'
+import NavBar from './NavBar'
 
 const Header = () => {
   return (

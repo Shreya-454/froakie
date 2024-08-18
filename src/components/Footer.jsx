@@ -5,11 +5,11 @@ import { FOOTER_LINK_LIST, SOCIAL_ICONS } from '../utils/helper'
 const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
-    <div className='bg-cloud pt-16 md:pt-[95px] bg-cover bg-center bg-no-repeat bg-light-blue sm:pb-20 pb-10 md:pb-[99px]'>
+    <div className='bg-cloud pt-10 sm:pt-16 lg:pt-[95px] bg-cover bg-center bg-no-repeat bg-light-blue sm:pb-20 pb-10 md:pb-[99px]'>
       <div className="container max-w-[1204px] xl:px-3 px-6 mx-auto">
         <div className="w-full bg-foot bg-cover bg-no-repeat bg-center pt-20 pb-[183px]">
 <PrimaryHeading className='text-white mb-3' center>Contact</PrimaryHeading>
-<p className='font-cabin text-lg text-white !leading-normal max-w-[766px] mx-auto text-center mb-8'>Pepe is the most memeable memecoin around the world, it‘s time to make memecoins great again and add some frog beside all dog memecoins.</p>
+<p className='font-cabin sm:text-base text-sm md:text-lg text-white !leading-normal max-w-[766px] mx-auto text-center mb-8'>Pepe is the most memeable memecoin around the world, it‘s time to make memecoins great again and add some frog beside all dog memecoins.</p>
 <div className='flex gap-2 justify-center'>
     {
     SOCIAL_ICONS.map((item,i)=>(

@@ -27,7 +27,7 @@ const Header = () => {
     ))}
 </div>
 <Cta className='!gap-1.5'>
-Get started <span></span>
+Get started
 </Cta>
 </div>
 <div className="xl:w-1/2 md:w-5/12 w-full px-3 flex lg:justify-end justify-center">

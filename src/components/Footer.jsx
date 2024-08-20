@@ -19,7 +19,7 @@ const Footer = () => {
     ))}
 </div>
         </div>
-        <div className='w-full md:flex justify-between items-center max-md:-mt-20'>
+        <div className='w-full md:flex justify-between items-center max-md:-mt-20 lg:mt-10'>
     <div className='flex gap-5 sm:gap-10 items-center max-md:w-full max-md:justify-center max-md:mb-2 max-sm:flex-wrap'>
         {FOOTER_LINK_LIST.map((obj,i)=>(
             <a key={i} href={obj.url} className='font-jost text-rich-black text-sm font-semibold leading-144'>{obj.link}</a>

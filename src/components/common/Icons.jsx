@@ -13,7 +13,7 @@ const Icons = ({ icon, className = '', ...props }) => {
             </svg>
             ),
             'twitter-icon':(<svg className='max-sm:size-10' width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_1_690)">
+                <g clipPath="url(#clip0_1_690)">
                 <path d="M28.8048 26.0795L40.9568 43.4611H35.9696L26.0533 29.2777V29.2768L24.5975 27.1947L13.0137 10.625H18.0009L27.349 23.9974L28.8048 26.0795Z" fill="white"/>
                 <path d="M48.1652 0H5.83482C2.61242 0 0 2.61242 0 5.83482V48.1652C0 51.3876 2.61242 54 5.83482 54H48.1652C51.3876 54 54 51.3876 54 48.1652V5.83482C54 2.61242 51.3876 0 48.1652 0ZM34.4429 45.7931L24.4083 31.1888L11.8448 45.7931H8.59775L22.9665 29.0913L8.59775 8.17922H19.5571L29.0592 22.0084L40.9559 8.17922H44.203L30.5014 24.1064H30.5005L45.4022 45.7931H34.4429Z" fill="white"/>
                 </g>
@@ -25,13 +25,13 @@ const Icons = ({ icon, className = '', ...props }) => {
                 </svg>
                 ),
                 'button-arrow':(<svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.4297 5.92969L20.4997 11.9997L14.4297 18.0697" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" className='group-hover:stroke-dark-blue duration-300'/>
-                    <path d="M3.5 12H20.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" className='group-hover:stroke-dark-blue duration-300'/>
+                    <path d="M14.4297 5.92969L20.4997 11.9997L14.4297 18.0697" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" className='group-hover:stroke-dark-blue duration-300'/>
+                    <path d="M3.5 12H20.33" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" className='group-hover:stroke-dark-blue duration-300'/>
                     </svg>
                     ),
                     'circle-arrow':(
                       <svg  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1_116)">
+<g clipPath="url(#clip0_1_116)">
 <path className='group-hover:fill-white duration-300' d="M19.5001 15.4998H17.5001V8.9098L5.91006 20.4998L4.50006 19.0898L16.0901 7.4998H9.50006V5.4998H19.5001V15.4998Z" fill="#2194E8"/>
 </g>
 <defs>
@@ -44,7 +44,7 @@ const Icons = ({ icon, className = '', ...props }) => {
                     ),
                     'dashed-lines':(
                       <svg className='w-full' width="234" height="2" viewBox="0 0 234 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.2" d="M0 1H233.75" stroke="black" stroke-dasharray="5 5"/>
+<path opacity="0.2" d="M0 1H233.75" stroke="black" strokeDasharray="5 5"/>
 </svg>
 
                     )

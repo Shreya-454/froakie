@@ -21,7 +21,7 @@ const HowToBuy = () => {
             <div className='max-custom-lg:flex justify-center'>
               <div className="md:max-w-[530px] w-full">
                   {BUY_CARDS_LIST.map((item,i) => (
-                      <div className={`w-full pb-6 border-b border-solid group border-light-grey mb-[15px] ${i ===3 && "!mb-0"}`}>
+                      <div key={i} className={`w-full pb-6 border-b border-solid group border-light-grey mb-[15px] ${i ===3 && "!mb-0"}`}>
                       <div className='flex justify-between items-center mb-6'>
                         <p className='font-cabin text-rich-black text-xl font-bold leading-160 duration-300 group-hover:text-rich-blue'>{item.title}</p>
                         <div className='size-[55px] border border-solid border-rich-blue bg-transparent rounded-full group-hover:bg-dark-blue group-hover:border-dark-blue duration-300 flex justify-center items-center'>

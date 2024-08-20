@@ -7,7 +7,7 @@ import NavBar from './NavBar'
 
 const Header = () => {
   return (
-    <div className='bg-hero md:min-h-[811px] lg:min-h-[900px] custom-xl:min-h-[977px] xl:min-h-[1065px] custom-2xl:min-h-[1110px] 2xl:min-h-[1170px] 3xl:min-h-[1229px] bg-cover bg-center bg-no-repeat pt-7 relative z-10'>
+    <div className='bg-hero md:min-h-[811px] lg:min-h-[900px] custom-xl:min-h-[977px] xl:min-h-[1065px] custom-2xl:min-h-[1110px] 2xl:min-h-[1170px] 3xl:min-h-[1229px] bg-cover bg-center bg-no-repeat pt-7 relative z-[1]'>
         <NavBar/>
       <div className="container max-w-[1204px] px-6 xl:px-3 mx-auto md:pt-9 ">
         <div className="flex flex-row flex-wrap -mx-3 items-center">
@@ -21,7 +21,7 @@ const Header = () => {
     <p className='font-cabin text-white text-base md:text-lg !leading-normal mb-4 sm:mb-6 md:mb-8 max-md:text-center'>CA: 0xf940400F89B8eA896b67110a0D<span className='lg:block max-xs:block'></span>CE492FF6326b10</p>
 <div className='flex gap-2 mb-4 sm:mb-6 md:mb-8'>{
     SOCIAL_ICONS.map((item,i)=>(
-        <a href={item.link}>
+        <a target='blank' rel="noopener norefferer" key={i} href={item.link}>
 <div className={`sm:size-[54px] size-10 bg-white flex justify-center items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
         </a>
     ))}
@@ -34,7 +34,7 @@ Get started <span></span>
 <img src={hero_frog} alt="hero-frog" className='max-w-[536px] w-full' /></div>
         </div>
       </div>
-      <img src={hero_clouds} alt="hero-clouds" className='absolute left-0 right-0 bottom-[-2%] custom-xl:-bottom-1 -z-20' />
+      <img src={hero_clouds} alt="hero-clouds" className='absolute left-0 right-0 bottom-[-2%] custom-xl:-bottom-1 z-[-1]' />
     </div>
   )
 }

@@ -13,7 +13,7 @@ const Footer = () => {
 <div className='flex gap-2 justify-center'>
     {
     SOCIAL_ICONS.map((item,i)=>(
-        <a target='blank' rel="noopener norefferer" href={item.link}>
+        <a key={i} target='blank' rel="noopener norefferer" href={item.link}>
 <div className={`sm:size-[54px] size-10 bg-white flex justify-center items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
         </a>
     ))}

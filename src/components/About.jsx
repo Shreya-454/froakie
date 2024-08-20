@@ -7,14 +7,14 @@ import about_dots from '../assets/images/svg/about-dots.svg'
 
 const About = () => {
   return (
-    <div className='relative  z-10 md:-mt-16 lg:-mt-28 custom-xl:-mt-44 2xl:-mt-56 overflow-hidden max-md:bg-light-blue max-md:pt-10'>
+    <div className='relative z-[1]  max-md:z-0 md:-mt-16 lg:-mt-28 custom-xl:-mt-44 2xl:-mt-56 overflow-hidden max-md:bg-light-blue max-md:pt-10'>
       <div className="container max-w-[1204px] mx-auto xl:px-3 px-6 pb-[45px] ">
         <PrimaryHeading center className='mb-3'>About Our Froakie </PrimaryHeading>
         <Paragraph className='font-cabin max-w-[791px]' center>Pepe is the most memeable memecoin around the world, it‘s time to make memecoins great again and add some frog beside all dog memecoins.</Paragraph>
       </div>
       <div className='bg-light-blue w-full -mt-20 custom-xl:-mt-4 pt-16 sm:pb-20 pb-10 lg:pb-[133px]'>
-          <div className='container max-w-[1204px] mx-auto xl:px-3 px-6 relative z-40'>
-          <img src={about_dots} alt="about-dots" className='absolute -bottom-[6%] -right-[8%] -z-30' />
+          <div className='container max-w-[1204px] mx-auto xl:px-3 px-6 relative z-[1]'>
+          <img src={about_dots} alt="about-dots" className='absolute -bottom-[6%] -right-[8%] z-[-1]' />
             <div className="w-full bg-white shadow-box py-6 lg:py-[43px] px-5 lg:px-8 custom-xl:pl-12 xl:pl-[62px] xl:pr-[49px] rounded-[35px] ">
                 <div className="flex flex-wrap gap-5 md:gap-7 custom-xl:gap-[60px] items-center max-custom-lg:justify-center">
                     <img src={about_bitcoin} alt="about-bitcoin" className='custom-xl:max-w-[477px]  lg:max-w-[430px] max-w-[380px] w-full' />

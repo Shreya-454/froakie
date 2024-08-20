@@ -22,7 +22,7 @@ const Header = () => {
 <div className='flex gap-2 mb-4 sm:mb-6 md:mb-8'>{
     SOCIAL_ICONS.map((item,i)=>(
         <a target='blank' rel="noopener norefferer" key={i} href={item.link}>
-<div className={`sm:size-[54px] size-10 bg-white flex justify-center items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
+<div className={`sm:size-[54px] size-10 bg-white flex justify-center hover:scale-90 duration-300 items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
         </a>
     ))}
 </div>

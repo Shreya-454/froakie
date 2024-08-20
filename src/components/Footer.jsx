@@ -14,7 +14,7 @@ const Footer = () => {
     {
     SOCIAL_ICONS.map((item,i)=>(
         <a key={i} target='blank' rel="noopener norefferer" href={item.link}>
-<div className={`sm:size-[54px] size-10 bg-white flex justify-center items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
+<div className={`sm:size-[54px] hover:scale-90 duration-300 size-10 bg-white flex justify-center items-center rounded-md ${i === 2 && "!bg-transparent"}`}>{item.icon}</div>
         </a>
     ))}
 </div>
